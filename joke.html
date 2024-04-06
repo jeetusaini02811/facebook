@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>jokes</p>
+        <button>jokes</button>
+    </div>
+</body>
+<script>
+    alert("hii")
+    let p = document.getElementsByTagName("p")[0]
+    let button = document.getElementsByTagName("button")[0]
+
+
+    button.addEventListener("click",async()=>{
+        let joke = await fetch("https://icanhazdadjoke.com/",{
+            headers : {
+                Accept :"application/json"
+            }
+        })
+        let jokejson = await joke.json();
+        let actualjoke = jokejson.joke;
+        p.innerHTML = actualjoke
+    })
+
+    p.style.color = "white"
+    p.style.backgroundColor= "black"
+    p.style.textAlign = "center"
+    p.style.fontSize ="3em";
+    p.style.border = "10px solid  yellow"
+    button.style.padding = "10px 50px"
+    button.style.marginLeft = "43%"
+    button.style.borderRadius= "10px"
+    button.style.backgroundColor= "red"
+    button.style.color = "white"
+    button.style.fontSize = "20px"
+</script>
+</html>

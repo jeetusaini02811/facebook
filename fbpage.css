@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* color: white; */
+     
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: burlywood; */
+
+}
+
+.alldiv>a{
+    text-decoration: none;
+    color: black;
+}
+.scroll{
+    overflow-y: hidden;
+}
+
+
+.same{
+    height: 100vh;
+    background-color:white;
+    padding: 10px;
+
+    width: 24vw;
+    overflow-y: scroll;
+}
+.three{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.jee{
+    position: absolute;
+    top: 11%;
+    left: 15%;
+    font-size: 16px;
+}
+
+
+#imgo{
+    height: 40px;
+}
+#img1{
+    margin-left: 10px;
+    margin-bottom: 7px;
+   align-items: center;
+    height: 20px;
+}
+.alldiv{
+    height: 3vh;
+    width: 10vw;
+    font-size:20px;
+    display: flex;
+    margin: 30px;
+    /* background-color: yellow; */
+}
+#inp{
+    margin-top: 15px;
+    border-radius: 40px;
+    padding: 8px 10px;
+}
+.alldiv>i{
+    margin-right: 20px;
+}
+.alldv1{
+    margin: 6px 10px;
+}
+i{
+    color: #8c9eff;
+}
+
+
+.two{
+    overflow-y: scroll;
+    background-color: rgba(232, 221, 210, 0.421);
+    width: 51vw;
+}
+.icon>i{
+    margin-top: 13px;
+}
+.icon>h3{
+    margin-top: 10px;
+}
+.ii{
+    margin-left: 90px;
+}
+#twoone{
+    border-radius: 20px;
+    font-size: 20px;
+    padding-left: 30px;
+    margin: 20px;
+    margin-left: 21px;
+    background-color: white;
+    width: 46vw;
+    height: 14vh    ;
+}
+#twoid{
+    margin: 10px;
+   display:flex ;
+}
+.icon{
+    display: flex;
+}
+.icon>i{
+    margin-left: 19px;
+    justify-content: flex-end;
+}
+
+.twodiv{
+    padding: 3px 19px;
+    border-radius: 30px;
+    border: 2px solid blue;
+    margin-left: 18px;
+}
+.maindiv{
+display: flex;
+    height: 17vh;
+}
+.scroll{
+    /* border: 2px solid rebeccapurple; */
+    margin-left: 21px;
+    width: 46vw;
+  height: 25vh;
+    overflow-x: scroll;
+    /* background-color: antiquewhite; */
+    display: flex;
+}
+.story{
+    position: relative;
+    /* border: 3px solid rgb(115, 29, 219); */
+    border-radius: 10px;
+    margin: 10px;
+    margin-top:19px ;
+    min-width: 7.6vw;
+    min-height: 17vh;
+    /* background-color: black; */
+}
+.story>img{
+    border: 2px solid blue;
+    border-radius: 10px;
+
+}
+
+.round{
+    position: absolute;
+    top:-15px;
+    left:24px;
+    border: 1.50px solid blue;
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;                                                                                                                                                                                                                                                                 px;
+    overflow: hidden;
+    /* background-color: rgb(30, 121, 201);  */
+}
+.round>img{
+    width: 100%;
+    height: 100%;
+}
+.left{
+    left: 24%;
+    position: absolute;
+  margin-top: 70px;
+  padding: 10px;
+  
+}
+.story>i{
+    margin: 44px 0 0 25px;
+    font-size: 40px;
+}
+
+
+.buut>button{
+    display: flex;
+    padding: 10px 11px;
+    align-items: center;
+  margin-top: 80px;  
+  
+}
+.img1>i{
+    align-items: center;
+    margin-top: 59px;
+    margin-left: 26px;
+    font-size: 40px;
+}
+.mainstory>h4{
+    margin-left: 19px;
+}
+#pest{
+    display: flex;
+    align-items: center;
+    margin-top: 14%;
+}
+#pest>a{
+    margin-left: 70%;
+    font-size: 20px;
+}
+#pest>h1{
+    margin-left: 25px;
+}
+
+
+.allpost{
+  margin: 19px 0 0 25px;
+    width: 45vw;
+    height: 56vh;
+   background-color: white;
+}
+.jons>img{
+    height: 30vh;
+    width: 44vw;
+}
+.names{
+    text-align: center;
+    display: flex;
+}
+.hii{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    /* padding: 18px; */
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(28, 8, 8);
+    border-radius: 50px;
+    overflow: hidden;
+}
+.hii>img{
+    width: 100%;
+    height: 100%;
+    
+}
+.names>h4{
+    margin-top: 16px;
+    font-size: 20px;
+}
+.allpost>img{
+    margin-top: 9PX;
+    width: 45vw;
+    height: 36vh;
+}
+.treee{
+    display: flex;
+}
+.tree{
+    padding: 4px 10px;
+    border-radius: 30px;
+    background-color: rgba(167, 173, 179, 0.606);
+    margin: 18px;
+    display: flex;
+}
+.tree>i{
+    margin-right: 8px;
+}
+.allpost2{
+    margin: 19px 0 0 25px;
+    width: 45vw;
+    height: 56vh;
+   background-color: white;
+}
+.allpost2>img{
+    margin-top: 9PX;
+    width: 45vw;
+    height: 36vh;
+}
+#venk{
+    height: 100%;
+    width: 100%;
+}
+.story>img{
+    margin-top: 3px;
+    width: 7.1vw;
+    height: 16.8vh;
+}
+.classs{
+    overflow: hidden;
+}
+.three1{
+    padding-bottom: 30px;
+    /* background-color: #8c9eff; */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.34);
+    align-items: center;
+    display: flex;
+}
+.three1>div{
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50px;
+}
+.three1>i{
+   font-size: 20px;
+    margin-left: 55px;
+}
+.three2{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.three2>h1{
+    margin-right: 70px;
+}
+
+.three2>i{
+    margin-left: 20px;
+}
+.chats{
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgb(60, 40, 147);
+    border-radius: 50px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.three1>img{
+    width: 100%;
+}
+.chats>img{
+    width: 100%;
+}
+
+.storyImage{
+    width: 100%;
+}
+.notification{
+    display:flex ;
+    align-items: center;
+}
+.notification>h3{
+    margin: 0px 30px;
+    padding-top: 30px;
+}
+
+/* ________________________________ */
+
+.vijayStory{
+    height: 99vh;
+    background-color: black;
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100vw;
+    z-index: 2;
+    opacity: 95%;
+    display: block;
+}
+.shows{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}

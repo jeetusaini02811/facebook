@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        margin: 20% 20%;
+        width: 30vw;
+        height: 40vh;
+        transform: scale(1);
+        transition: transform 0.4s ease-in-out;
+      }
+      .container > img:hover {
+        border-radius: 50%;
+        overflow: hidden;
+        border: 10px solid;
+        border-top-color: blue;
+        border-left-color: blueviolet;
+        border-bottom-color: chartreuse;
+        border-right-color: crimson;
+      }
+      body {
+        perspective: 200px;
+      }
+      img:hover {
+        transform: scale(2);
+        /* transform: rotatey(20deg); */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
+        alt=""
+      />
+    </div>
+  </body>
+</html>
